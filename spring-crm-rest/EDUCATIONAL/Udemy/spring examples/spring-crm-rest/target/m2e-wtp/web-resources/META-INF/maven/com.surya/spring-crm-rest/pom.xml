@@ -17,7 +17,7 @@
 		<springframework.version>5.2.5.RELEASE</springframework.version>
 		<hibernate.version>5.4.14.Final</hibernate.version>
 		<mysql.connector.version>8.0.19</mysql.connector.version>
-		<c3po.version>0.9.5.2</c3po.version>
+		<c3po.version>0.9.5.4</c3po.version>
 
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -65,12 +65,13 @@
 		</dependency>
 
 		<!-- C3PO -->
+		<!-- commented because of security reason on github
 		<dependency>
 			<groupId>com.mchange</groupId>
 			<artifactId>c3p0</artifactId>
 			<version>${c3po.version}</version>
 		</dependency>
-
+		-->
 		<!-- Servlet+JSP+JSTL -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
